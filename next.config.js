@@ -4,6 +4,6 @@ module.exports = {
       domains: ['rms.softreader.in'],
     },
     publicRuntimeConfig: {
-      apiUrl: process.env.NEXT_PUBLIC_API_URL || 'https://api.example.com',
+      apiUrl: process.env.NEXT_PUBLIC_API_URL || 'http://rms.softreader.in:5000/api',
     },
 }

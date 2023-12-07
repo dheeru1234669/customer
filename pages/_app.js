@@ -12,7 +12,7 @@ import axios from 'axios';
 import config from '../config';
 import getConfig from 'next/config';
 
-const app = {};
+const app = {}; 
 const { publicRuntimeConfig } = getConfig();
 // const apiUrl = publicRuntimeConfig.apiUrl;
 // app.baseURL = 'http://rms.softreader.in:5000/api'
