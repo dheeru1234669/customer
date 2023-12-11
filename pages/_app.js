@@ -15,8 +15,8 @@ import getConfig from 'next/config';
 const app = {}; 
 const { publicRuntimeConfig } = getConfig();
 // const apiUrl = publicRuntimeConfig.apiUrl;
-// app.baseURL = 'http://rms.softreader.in:5000/api'
-const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://api.example.com';
+// app.baseURL = 'https://rms.softreader.in:5000/api'
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://rms.softreader.in:5000/api';
 
 console.log(apiUrl);
 
