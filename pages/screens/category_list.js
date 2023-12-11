@@ -16,6 +16,7 @@ class Category_List extends React.Component {
     if(!this.hasMounted){
       this.hasMounted = true    
       this.get_subCategory();
+      //check
     }
   }
 
